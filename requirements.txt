@@ -1,0 +1,12 @@
+# C2 Simulation Framework — Dependencies
+# Install with: pip install -r requirements.txt
+# Compatible with: Linux, macOS, Windows
+
+# Symmetric encryption (Fernet / AES-128-CBC + HMAC-SHA256)
+cryptography>=41.0.0
+
+# Rich terminal output: progress bars, panels, colored text
+rich>=13.7.0
+
+# Cross-platform interactive selection menu (replaces simple-term-menu)
+questionary>=2.0.1
